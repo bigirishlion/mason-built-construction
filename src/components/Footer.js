@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer id="footer">
       <ul className="icons">
-        {config.socialLinks.map(social => {
+        {config.socialLinks.map((social) => {
           const { style, icon, name, url } = social;
           return (
             <li key={url}>
@@ -16,10 +16,8 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; Spectral</li>
-        <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
+        <li>&copy; {new Date().getFullYear()} Mason Built Construction</li>
+        <li>CCB: 251663</li>
       </ul>
     </footer>
   );

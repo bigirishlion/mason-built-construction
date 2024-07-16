@@ -8,7 +8,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
         <li className="special">
           <a
             href="#menu"
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
               onMenuToggle();
             }}
@@ -22,15 +22,15 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/Generic">Generic Page</Link>
+                <Link to="/About">About</Link>
               </li>
               <li>
-                <Link to="/Elements">Elements</Link>
+                <Link to="/Contact">Contact</Link>
               </li>
             </ul>
             <a
               className="close"
-              onClick={e => {
+              onClick={(e) => {
                 e.preventDefault();
                 onMenuToggle();
               }}

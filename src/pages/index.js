@@ -49,7 +49,7 @@ const IndexPage = () => (
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
+            <span className="icon solid fa-hammer major style1">
               <span className="label">Lorem</span>
             </span>
           </li>
@@ -59,7 +59,7 @@ const IndexPage = () => (
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
+            <span className="icon solid fa-home major style3">
               <span className="label">Dolor</span>
             </span>
           </li>
@@ -189,7 +189,7 @@ const IndexPage = () => (
         <ul className="actions stacked">
           <li>
             <a href="/#" className="button fit primary">
-              Activate
+              Contact Us
             </a>
           </li>
           <li>

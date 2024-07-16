@@ -598,15 +598,15 @@
 		}
 
 		&.style1 {
-			color: _palette(accent2, bg);
+			color: _palette(accent7, bg);
 		}
 
 		&.style2 {
-			color: _palette(accent3, bg);
+			color: _palette(accent7, bg);
 		}
 
 		&.style3 {
-			color: _palette(accent4, bg);
+			color: _palette(accent7, bg);
 		}
 	}
 
@@ -1006,7 +1006,7 @@
 
 			&:before {
 				display: block;
-				color: _palette(accent2, bg);
+				color: _palette(accent7, bg);
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;

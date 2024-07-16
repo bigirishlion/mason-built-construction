@@ -1,14 +1,13 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "mason-built-construction",
   "version": "0.0.2",
-  "description": "Gatsby.js V4 starter template based on Spectral by HTML5 UP",
+  "description": "Mason Built Construction Website",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "BigIrishLion"
   },
   "dependencies": {
     "gatsby": "^4.2.0",
