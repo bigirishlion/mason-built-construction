@@ -22,13 +22,12 @@ const IndexPage = () => (
 
           <hr />
 
-          <form method="post" action="#">
+          <form name="contact" netlify>
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
                 <input
                   type="text"
-                  name="demo-name"
-                  id="demo-name"
+                  name="name"
                   defaultValue=""
                   placeholder="Name"
                 />
@@ -36,13 +35,12 @@ const IndexPage = () => (
               <div className="col-6 col-12-xsmall">
                 <input
                   type="email"
-                  name="demo-email"
-                  id="demo-email"
+                  name="email"
                   defaultValue=""
                   placeholder="Email"
                 />
               </div>
-              <div className="col-12">
+              {/* <div className="col-12">
                 <select name="demo-category" id="demo-category">
                   <option value="">- Category -</option>
                   <option value="1">Manufacturing</option>
@@ -50,7 +48,7 @@ const IndexPage = () => (
                   <option value="1">Administration</option>
                   <option value="1">Human Resources</option>
                 </select>
-              </div>
+              </div> */}
               <div className="col-12">
                 <textarea
                   name="demo-message"
