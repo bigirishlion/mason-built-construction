@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -188,14 +189,14 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
+            <Link className="button fit primary" to="/Contact">
               Contact Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/#" className="button fit">
+            <Link className="button fit" to="/About">
               Learn More
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
