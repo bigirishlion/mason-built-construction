@@ -35,13 +35,21 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2>Our Mission</h2>
+          <h2>
+            {' '}
+            Welcome to Mason Built Construction <br /> Where Your Vision Becomes
+            Reality
+          </h2>
           <p>
-            Our mission is to create spaces that inspire and enhance the lives
-            of our clients. We strive to uphold our values of integrity,
-            quality, and sustainability in every project. Our commitment to
-            excellence ensures that we not only meet but often surpass industry
-            standards.
+            At Mason Built, we specialize in transforming dreams into tangible
+            results. With years of experience in the construction industry, our
+            dedicated team of professionals is committed to delivering quality
+            craftsmanship and exceptional service on every project. Whether
+            you’re looking to build your dream home, renovate your existing
+            space, or tackle a roofing, siding project, we’ve got the expertise
+            and passion to bring your vision to life. Explore our services and
+            discover how we can help you create the perfect environment tailored
+            to your unique needs.
           </p>
         </header>
         <ul className="icons major">
