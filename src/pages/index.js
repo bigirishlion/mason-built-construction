@@ -35,17 +35,13 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
-          </h2>
+          <h2>Our Mission</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Our mission is to create spaces that inspire and enhance the lives
+            of our clients. We strive to uphold our values of integrity,
+            quality, and sustainability in every project. Our commitment to
+            excellence ensures that we not only meet but often surpass industry
+            standards.
           </p>
         </header>
         <ul className="icons major">
