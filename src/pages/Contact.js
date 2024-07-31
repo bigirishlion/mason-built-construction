@@ -18,7 +18,8 @@ const IndexPage = () => (
 
           <hr />
 
-          <form name="contact" netlify>
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
                 <input
