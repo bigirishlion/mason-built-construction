@@ -18,7 +18,12 @@ const IndexPage = () => (
 
           <hr />
 
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify-recaptcha="true"
+            data-netlify="true"
+          >
             <input type="hidden" name="form-name" value="contact" />
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
@@ -27,6 +32,7 @@ const IndexPage = () => (
                   name="name"
                   defaultValue=""
                   placeholder="Name"
+                  required="true"
                 />
               </div>
               <div className="col-6 col-12-xsmall">
@@ -35,17 +41,18 @@ const IndexPage = () => (
                   name="email"
                   defaultValue=""
                   placeholder="Email"
+                  required="true"
                 />
               </div>
-              {/* <div className="col-12">
+              <div className="col-12">
                 <select name="demo-category" id="demo-category">
                   <option value="">- Category -</option>
-                  <option value="1">Manufacturing</option>
-                  <option value="1">Shipping</option>
-                  <option value="1">Administration</option>
-                  <option value="1">Human Resources</option>
+                  <option value="1">General Inquires</option>
+                  <option value="1">Roofing</option>
+                  <option value="1">General Contractor</option>
+                  <option value="1">Other</option>
                 </select>
-              </div> */}
+              </div>
               <div className="col-12">
                 <textarea
                   name="demo-message"
@@ -54,6 +61,7 @@ const IndexPage = () => (
                   rows="6"
                 ></textarea>
               </div>
+              <div data-netlify-recaptcha="true"></div>
               <div className="col-12">
                 <ul className="actions">
                   <li>
