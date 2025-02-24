@@ -6,7 +6,6 @@ module.exports = {
   manifestBackgroundColor: '#f58d20',
   manifestThemeColor: '#f58d20',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/hammer-icon.png',
   pathPrefix: `/about/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Mason Built Construction',
   subHeading: 'Craftsmanship Done Right. The First Time',
