@@ -1620,6 +1620,19 @@
 			}
 		}
 
+		h3 {
+			display: inline-block;
+			font-size: 1.75em;
+			opacity: 1;
+			padding: 0.35em 1em;
+			position: relative;
+			z-index: 1;
+			a, span {
+				display: 'block';
+				font-size: '.75em';
+			}
+		}
+
 		p {
 			letter-spacing: _size(letter-spacing-alt);
 			text-transform: uppercase;

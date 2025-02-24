@@ -14,6 +14,21 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
+        <div></div>
+        <h3>
+          <span style={{ display: 'block', fontSize: '.75em' }}>
+            Joshua D. Mason
+          </span>
+          <a
+            style={{ display: 'block', fontSize: '.75em' }}
+            href="tel:1-503-467-6645"
+          >
+            (503) 467-6645
+          </a>
+          <span style={{ display: 'block', fontSize: '.75em' }}>
+            CCB: 251663
+          </span>
+        </h3>
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
@@ -138,6 +153,20 @@ const IndexPage = () => (
               also provides crucial protection against the elements.
             </p>
           </li>
+          <li className="icon solid fa-screwdriver">
+            <h3>Handyman</h3>
+            <p>
+              From plumbing and electrical work to carpentry and general home
+              maintenance, we've got you covered.
+            </p>
+          </li>
+          <li className="icon solid fa-palette">
+            <h3>Painting</h3>
+            <p>
+              Whether it’s a vibrant interior update or a durable exterior
+              finish, we deliver professional results that last.
+            </p>
+          </li>
         </ul>
       </div>
     </section>
@@ -145,10 +174,10 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Contact Us</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            Get a free estimate and discover how Mason Built Construction can
+            help you achieve your project needs.
           </p>
         </header>
         <ul className="actions stacked">
