@@ -21,9 +21,9 @@ const IndexPage = () => (
           </span>
           <a
             style={{ display: 'block', fontSize: '.75em' }}
-            href="tel:1-503-467-6645"
+            href="tel:1-503-467-6643"
           >
-            (503) 467-6645
+            (503) 467-6643
           </a>
           <span style={{ display: 'block', fontSize: '.75em' }}>
             CCB: 251663
